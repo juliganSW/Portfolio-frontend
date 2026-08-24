@@ -703,6 +703,7 @@ span {
     .nav-menu {
         display: none;
     }
+    
 }
 
 @media (max-width: 520px) {
@@ -749,7 +750,9 @@ span {
     .home {
         grid-template-columns: 1fr;
         text-align: center;
-        padding-top: 14rem;
+        padding-top: 6rem;
+         min-height: auto;      
+        padding-bottom: 4rem;
     }
 
     .home__image img {
@@ -784,15 +787,15 @@ span {
 
 @media (max-width: 520px) {
     .home__content h1 {
-        font-size: 3.2rem;
+        font-size: 3.8rem;
     }
 
     .home__role h3 {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
     }
 
     .home__content p {
-        font-size: 1.7rem;
+        font-size: 2rem;
         margin: 1.5rem 0 3rem;
     }
 
@@ -810,7 +813,6 @@ span {
 }
 
 /*media queries para el slider*/
-
 @media (max-width: 991px) {
     .slide {
         max-width: 55rem;
