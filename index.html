@@ -19,7 +19,6 @@
     <!-- header -->
     <header class="header">
         <a href="#" class="logo">Julián Piedrabuena</a>
-
         <nav class="nav-menu">
             <a href="#home">Home</a>
             <a href="#about">Sobre mi</a>
@@ -29,30 +28,29 @@
             <a href="#contact">Contacto</a>
         </nav>
     </header>
-
-    <!-- sección home -->
-    <section class="home" id="home">
-        <div class="home__content">
-            <h1 style="color: #39f2ae">Hola!<span> Soy Julián</span></h1>
-            <div class="home__role">
-                <h3>Frontend <i>developer</i></h3>
-            </div>
-            <p class="neon"><i>"La mejor manera de predecir el futuro, es inventarlo"</i><br>Alan Kay</p>
-
-            <div class="home__socials">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/juliganSW" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </div>
-        </div>
-        <div class="home__image">
-            <img src="./assets/img/developer.jfif" alt="imagen de un desarrollador">
-        </div>
-    </section>
-
     <!--contenido principal de la página-->
     <main>
-        <!-- about -->
+        <!--sección home-->
+        <section class="home" id="home">
+            <div class="home__content">
+                <h1 style="color: #39f2ae">Hola!<span> Soy Julián</span></h1>
+                <div class="home__role">
+                    <h3>Frontend <i>developer</i></h3>
+                </div>
+                <p class="neon"><i>"La mejor manera de predecir el futuro, es inventarlo"</i><br>Alan Kay</p>
+
+                <div class="home__socials">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/juliganSW" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="home__image">
+                <img src="./assets/img/developer.jfif" alt="imagen de un desarrollador">
+            </div>
+        </section>
+
+        <!--  sección about -->
         <section class="about" id="about">
             <h2 class="heading">Sobre <span>mi</span></h2>
 
@@ -98,7 +96,7 @@
 
                         <div class="timeline__item">
                             <div class="timeline__card">
-                                <h3>Licenciatura en Informática - Universidad de Palermo</h3>
+                                <h3>Licenciatura en Informática - UBA</h3>
                                 <p>Orientada a concebir soluciones a un amplio espectro de problemas asociados a las
                                     tareas
                                     de análisis, diseño, programación e implantación de software.</p>
@@ -276,24 +274,24 @@
                 <div class="form-row">
                     <div class="form-field">
                         <label for="name">Nombre Completo</label>
-                        <input type="text" id="name">
+                        <input type="text" id="name" name="name">
 
                     </div>
                     <div class="form-field">
                         <label for="email">Email</label>
-                        <input type="text" id="phone">
+                        <input type="text" id="email" name="email">
 
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-field">
                         <label for="phone">Teléfono</label>
-                        <input type="number" id="phone">
+                        <input type="number" id="phone" name="phone">
 
                     </div>
                     <div class="form-field">
                         <label for="subject">Asunto</label>
-                        <input type="text" id="subject">
+                        <input type="text" id="subject" name="subject">
                     </div>
                 </div>
 
