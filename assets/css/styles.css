@@ -854,9 +854,7 @@ span {
         border-radius: .5rem;
     }
 
-    .slide-control {
-        display: none !important;
-    }
+   
 
     .slide-indicador {
         bottom: 1%;
