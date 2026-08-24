@@ -4,8 +4,8 @@ Landing de portafolio personal desarrollada para la PFO1 de **Desarrollo de Sist
 
 ## 🔗 Enlaces
 
-- **Demo en vivo (Vercel):** _pendiente de publicar_
-- **Perfil de GitHub:** [github.com/juliganSW](https://github.com/juliganSW)
+- **Demo en Vercel:** https://portfolio-frontend-coral-zeta.vercel.app/
+- **Perfil de GitHub:** https://github.com/juliganSW
 
 ## 📄 Descripción
 
